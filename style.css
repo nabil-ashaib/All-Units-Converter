@@ -1,0 +1,107 @@
+html, body {
+    margin: 0; padding: 0;
+    font-family: 'Inter';
+    background: #1C1C1C;
+}
+@font-face {
+    font-family: Inter;
+    src: url(./Inter.ttf);
+ }
+
+#container {
+	width: 100%;
+	height: auto;
+    margin: 0; padding: 0;
+    background-color: #1C1C1C;
+}
+#screen {
+    color: #ffffff;
+    width: auto; height: auto;
+	max-width: 50%;
+    margin: 3% auto 0;
+	text-align: center;
+    background-color: #1F2937
+    ;
+}
+@media (max-width: 950px) {
+    #screen {
+        color: #eeeeee;
+        width: auto; height: auto;
+        min-width: 90%;
+        margin: 15% auto;
+        text-align: center;
+        background-color: #1F2937
+        ;
+    }
+    #input-screen > input {
+        width: auto;
+        min-width: 50%;
+    }
+}
+
+#input-screen {
+    color: #FFFFFF;
+    padding: 15px 5px;
+    font-family: 'Inter';
+    text-align: center;
+    background-color: #6943FF;
+}
+
+#input-screen > p {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 800;
+    letter-spacing: +0.03em;
+}
+#input-screen > input {
+    color: #FFFFFF;
+    height: 80px;
+    max-width: 45%;
+    margin: 10px auto;
+    padding: 5px 10px;
+    font-weight: 800;
+    font-size: 58px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    background: none;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+#input-screen > button {
+    color: #273549;
+    width: 120px;
+    margin: 15px auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+#output-screen {
+    padding: 15px 25px;
+}
+
+.col-sm{
+    color: #ffffff;
+    width: auto; height: auto;
+    margin: 10px; padding: 17px 20px;
+    background-color: #273549;
+}
+.col-sm > p {
+    color: #CCC1FF;
+    margin: 0; padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.col-sm > div {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
